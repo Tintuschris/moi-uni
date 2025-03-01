@@ -1,0 +1,17 @@
+.marquee-with-options-672 {
+    direction: initial;
+    overflow: hidden !important;
+    color: rgba(255, 255, 255, 1);
+    height: auto;
+    width: auto;
+    margin-bottom: 0px;
+    text-decoration: none;
+  }
+  
+  .marquee-with-options-672 a:hover {
+    color: inherit !important;
+  }
+  
+  .marquee-with-options-672 a {
+    color: rgba(240, 245, 241, 1) !important;
+  }
