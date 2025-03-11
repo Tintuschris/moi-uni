@@ -8,7 +8,7 @@ import Link from 'next/link';
 export default function NewsSection() {
   return (
     <div className="w-full bg-gray-100 py-8">
-      <div className="container mx-auto px-4">
+      <div className="container max-w-[99%] mx-auto px-4">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
           
           {/* Announcements Column */}
@@ -76,7 +76,7 @@ export default function NewsSection() {
                 </Link>
                 <div className="my-2">
                   <Image 
-                    src="/api/placeholder/300/200" 
+                    src="/basketball.jpeg" 
                     alt="Sports day participants" 
                     width={300} 
                     height={200} 
@@ -93,7 +93,7 @@ export default function NewsSection() {
                 </Link>
                 <div className="my-2">
                   <Image 
-                    src="/api/placeholder/300/200" 
+                    src="/workshop.jpg" 
                     alt="Research university participants" 
                     width={300} 
                     height={200} 
@@ -110,7 +110,7 @@ export default function NewsSection() {
                 </Link>
                 <div className="my-2">
                   <Image 
-                    src="/api/placeholder/300/200" 
+                    src="/engineering-meeting.png" 
                     alt="Engineering staff seminar" 
                     width={300} 
                     height={200} 
@@ -127,7 +127,7 @@ export default function NewsSection() {
                 </Link>
                 <div className="my-2">
                   <Image 
-                    src="/api/placeholder/300/200" 
+                    src="/courtesy-call.jpg" 
                     alt="Health collaboration meeting" 
                     width={300} 
                     height={200} 
@@ -144,7 +144,7 @@ export default function NewsSection() {
                 </Link>
                 <div className="my-2">
                   <Image 
-                    src="/api/placeholder/300/200" 
+                    src="/council-inauguration.jpg" 
                     alt="Council inauguration ceremony" 
                     width={300} 
                     height={200} 
@@ -167,7 +167,7 @@ export default function NewsSection() {
                 </Link>
                 <div className="my-2">
                   <Image 
-                    src="/api/placeholder/300/200" 
+                    src="/Congratulation-msg.jpg" 
                     alt="PhD graduation certificate" 
                     width={300} 
                     height={200} 
@@ -184,7 +184,7 @@ export default function NewsSection() {
                 </Link>
                 <div className="my-2">
                   <Image 
-                    src="/api/placeholder/300/200" 
+                    src="/etemo-launchy.jpg" 
                     alt="Moisture meter and maize dryer" 
                     width={300} 
                     height={200} 
