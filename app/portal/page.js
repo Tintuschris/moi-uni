@@ -87,7 +87,7 @@ export default function StudentPortal() {
                   value={username}
                   onChange={(e) => setUsername(e.target.value)}
                   required
-                  className="w-full px-4 py-3 rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-500 transition-all duration-200"
+                  className="w-full px-4 py-3 rounded-lg border border-green-400 bg-green-900/30 text-white placeholder-green-300 focus:outline-none focus:ring-2 focus:ring-green-400 focus:border-transparent transition-all duration-200"
                   placeholder="Enter your registration number"
                 />
               </div>
@@ -102,7 +102,7 @@ export default function StudentPortal() {
                   value={regNumber}
                   onChange={(e) => setRegNumber(e.target.value)}
                   required
-                  className="w-full px-4 py-3 rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-500 transition-all duration-200"
+                  className="w-full px-4 py-3 rounded-lg border border-green-400 bg-green-900/30 text-white placeholder-green-300 focus:outline-none focus:ring-2 focus:ring-green-400 focus:border-transparent transition-all duration-200"
                   placeholder="Enter your password"
                 />
               </div>
@@ -112,7 +112,7 @@ export default function StudentPortal() {
               <input
                 type="checkbox"
                 id="remember"
-                className="h-4 w-4 text-blue-500 border-gray-300 rounded focus:ring-2 focus:ring-blue-500"
+                className="h-4 w-4 text-green-500 border-green-400 rounded focus:ring-2 focus:ring-green-400"
               />
               <label htmlFor="remember" className="ml-2 block text-sm text-white">
                 Remember me
@@ -122,14 +122,14 @@ export default function StudentPortal() {
             <button
               type="submit"
               disabled={loading}
-              className="w-full px-4 py-3 text-white bg-blue-600 rounded-lg hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-500 transition-all duration-200 disabled:opacity-50"
+              className="w-full px-4 py-3 text-white bg-green-600 rounded-lg hover:bg-green-500 focus:outline-none focus:ring-2 focus:ring-green-400 transition-all duration-200 disabled:opacity-50"
             >
               {loading ? 'Logging in...' : 'Log In'}
             </button>
           </form>
 
           <div className="mt-6 text-center">
-            <a href="#" className="text-sm text-blue-300 hover:text-blue-200 transition-colors duration-200">
+            <a href="#" className="text-sm text-green-300 hover:text-green-200 transition-colors duration-200">
               Forgot your password?
             </a>
           </div>
