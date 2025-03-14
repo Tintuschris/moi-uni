@@ -236,7 +236,7 @@ export default function CampusSection() {
               {/* Campus Photos */}
               <div className="mt-4">
                 <Image
-                  src="/Moi-Uni-Admin-block.jpg"
+                  src="/Moi-Uni-Admin-Block.jpg"
                   alt="Moi University Campus Building"
                   width={500}
                   height={250}
@@ -263,7 +263,7 @@ export default function CampusSection() {
             <div className="bg-white border border-gray-200 p-3">
               <div className="relative bg-black">
                 <Image
-                  src="/Moi-Uni-Admin-block.jpg"
+                  src="/Moi-Uni-Admin-Block.jpg"
                   alt="Moi University Video"
                   width={400}
                   height={220}

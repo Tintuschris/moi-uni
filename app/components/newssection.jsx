@@ -184,7 +184,7 @@ export default function NewsSection() {
                 </Link>
                 <div className="my-2">
                   <Image 
-                    src="/etemo-launchy.jpg" 
+                    src="/etemo-launchy.JPG" 
                     alt="Moisture meter and maize dryer" 
                     width={300} 
                     height={200} 
